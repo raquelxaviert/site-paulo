@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paulo Lourenço Marcenaria | Móveis planejados sob medida em BH</title>
+  <meta name="description" content="Cozinhas, guarda-roupas e banheiros planejados sob medida em Belo Horizonte e região. Visita técnica, projeto, produção e montagem com acabamento impecável." />
+  <meta property="og:title" content="Paulo Lourenço Marcenaria" />
+  <meta property="og:description" content="Móveis planejados sob medida em Belo Horizonte e região." />
+  <meta property="og:image" content="assets/img/cozinha-01.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+
+  <!-- ============ TOPO ============ -->
+  <header class="nav" id="topo">
+    <div class="container nav__inner">
+      <a href="#topo" class="logo">
+        <span class="logo__mark">PL</span>
+        <span class="logo__text">Paulo Lourenço<small>Marcenaria sob medida</small></span>
+      </a>
+      <nav class="nav__links" id="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="btn btn--small btn--wa nav__cta" data-wa href="#">Orçamento</a>
+      <button class="nav__toggle" aria-label="Abrir menu" id="menuToggle"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <p class="eyebrow">Marcenaria em Belo Horizonte e região</p>
+        <h1>Móveis planejados que <em>cabem</em> na sua vida.</h1>
+        <p class="lead">Cozinhas, guarda-roupas e banheiros feitos sob medida, do projeto à montagem, com o cuidado de quem faz cada peça como se fosse para a própria casa.</p>
+        <div class="hero__actions">
+          <a class="btn btn--wa" data-wa href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+            Pedir orçamento grátis
+          </a>
+          <a class="btn btn--ghost" href="#projetos">Ver projetos</a>
+        </div>
+        <ul class="hero__badges">
+          <li><strong>+15 anos</strong> de experiência</li>
+          <li><strong>+600 ambientes</strong> entregues</li>
+          <li><strong>Visita técnica</strong> sem compromisso</li>
+        </ul>
+      </div>
+      <div class="hero__media">
+        <div class="hero__frame"><img src="assets/img/cozinha-01.jpg" alt="Cozinha planejada em L com armário de vidro iluminado" /></div>
+        <div class="hero__card">
+          <div class="stars" aria-label="5 estrelas">★★★★★</div>
+          <p>“Acabamento impecável e entregou no prazo.”</p>
+          <span>— cliente em BH</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NÚMEROS ============ -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div><strong>+<span data-count="15">0</span></strong><span>anos no mercado</span></div>
+      <div><strong>+<span data-count="600">0</span></strong><span>ambientes montados</span></div>
+      <div><strong>+<span data-count="350">0</span></strong><span>famílias atendidas</span></div>
+      <div><strong><span data-count="5" data-decimals="1">0</span> ★</strong><span>avaliação dos clientes</span></div>
+    </div>
+  </section>
+
+  <!-- ============ FAIXA ROLANDO ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Cozinhas planejadas</span><i>✦</i><span>Guarda-roupas</span><i>✦</i><span>Closets</span><i>✦</i><span>Banheiros</span><i>✦</i><span>Lavanderias</span><i>✦</i><span>Painéis ripados</span><i>✦</i><span>Home office</span><i>✦</i><span>Área gourmet</span><i>✦</i>
+      <span>Cozinhas planejadas</span><i>✦</i><span>Guarda-roupas</span><i>✦</i><span>Closets</span><i>✦</i><span>Banheiros</span><i>✦</i><span>Lavanderias</span><i>✦</i><span>Painéis ripados</span><i>✦</i><span>Home office</span><i>✦</i><span>Área gourmet</span><i>✦</i>
+    </div>
+  </div>
+
+  <!-- ============ SOBRE ============ -->
+  <section class="section about" id="sobre">
+    <div class="container about__grid">
+      <div class="about__photo">
+        <!-- Coloque a foto do Paulo em assets/img/paulo.jpg -->
+        <img src="assets/img/paulo.jpg" alt="Paulo Lourenço, marceneiro" onerror="this.parentElement.classList.add('is-empty'); this.remove();" />
+        <div class="about__placeholder">Foto do Paulo<br /><small>assets/img/paulo.jpg</small></div>
+        <div class="about__tag"><strong>+15 anos</strong> de marcenaria</div>
+      </div>
+      <div class="about__text">
+        <p class="eyebrow">Quem faz</p>
+        <h2>Prazer, eu sou o Paulo.</h2>
+        <p>Há mais de 15 anos trabalho com marcenaria sob medida em Belo Horizonte. Comecei cedo, aprendendo o ofício na prática, e hoje cuido pessoalmente de cada etapa: vou até a sua casa, tiro as medidas, desenho a solução e acompanho a montagem até o último puxador.</p>
+        <p>Meu trabalho é transformar o espaço que você tem no espaço que você precisa, com material de qualidade, ferragens confiáveis e um acabamento que dura anos.</p>
+        <ul class="checks">
+          <li>Atendimento direto com quem fabrica e monta</li>
+          <li>MDF de primeira linha e ferragens com amortecimento</li>
+          <li>Orçamento detalhado, sem surpresa no final</li>
+          <li>Garantia nos móveis e na montagem</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVIÇOS ============ -->
+  <section class="section services" id="servicos">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">O que eu faço</p>
+        <h2>Da cozinha ao quarto, cada canto planejado.</h2>
+      </div>
+      <div class="services__grid">
+        <article class="service">
+          <img src="assets/img/cozinha-04.jpg" alt="" loading="lazy" />
+          <div><h3>Cozinhas planejadas</h3><p>Armários aéreos e inferiores, torres de forno, nichos iluminados e aproveitamento total do espaço.</p></div>
+        </article>
+        <article class="service">
+          <img src="assets/img/quarto-01.jpg" alt="" loading="lazy" />
+          <div><h3>Guarda-roupas e closets</h3><p>Portas de correr ou de abrir, com espelho, gaveteiros, cabideiros e iluminação interna.</p></div>
+        </article>
+        <article class="service">
+          <img src="assets/img/banheiro-01.jpg" alt="" loading="lazy" />
+          <div><h3>Banheiros</h3><p>Gabinetes, espelheiras e painéis ripados que unem praticidade e beleza.</p></div>
+        </article>
+        <article class="service">
+          <img src="assets/img/cozinha-11.jpg" alt="" loading="lazy" />
+          <div><h3>Área de serviço e externa</h3><p>Armários resistentes para lavanderia, varanda e área gourmet.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJETOS ============ -->
+  <section class="section gallery" id="projetos">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Portfólio</p>
+        <h2>Alguns trabalhos entregues.</h2>
+        <p>Fotos reais de projetos montados por mim. Clique para ampliar.</p>
+      </div>
+      <div class="filters" role="tablist">
+        <button class="is-active" data-filter="all">Todos</button>
+        <button data-filter="cozinha">Cozinhas</button>
+        <button data-filter="quarto">Quartos</button>
+        <button data-filter="banheiro">Banheiros</button>
+      </div>
+      <div class="gallery__grid" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ VÍDEOS ============ -->
+  <section class="section videos">
+    <div class="container videos__grid">
+      <div class="videos__text">
+        <p class="eyebrow">Em movimento</p>
+        <h2>Veja os detalhes de perto.</h2>
+        <p>Foto mostra o visual, vídeo mostra o acabamento: portas alinhadas, gavetas que fecham suave e cada peça no lugar.</p>
+        <a class="btn btn--wa" data-wa href="#">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+          Quero um projeto assim
+        </a>
+      </div>
+      <figure class="video">
+        <video src="assets/video/cozinhas.mp4" poster="assets/img/poster-cozinhas.jpg" muted loop playsinline controls preload="none"></video>
+        <figcaption>Cozinhas montadas este ano</figcaption>
+      </figure>
+      <figure class="video">
+        <video src="assets/video/projetos.mp4" poster="assets/img/poster-projetos.jpg" muted loop playsinline controls preload="none"></video>
+        <figcaption>Guarda-roupa com porta de espelho</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ COMO FUNCIONA ============ -->
+  <section class="section steps">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Como funciona</p>
+        <h2>Simples, do primeiro contato à montagem.</h2>
+      </div>
+      <ol class="steps__grid">
+        <li><span>01</span><h3>Conversa</h3><p>Você me chama no WhatsApp e conta o que precisa. Pode mandar fotos e referências.</p></li>
+        <li><span>02</span><h3>Visita e medição</h3><p>Vou até o local, tiro as medidas exatas e entendo como você usa o espaço.</p></li>
+        <li><span>03</span><h3>Orçamento</h3><p>Envio um orçamento detalhado, com opções de material e acabamento.</p></li>
+        <li><span>04</span><h3>Produção e montagem</h3><p>Fabrico os móveis e faço a montagem completa, deixando tudo limpo e pronto.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ DEPOIMENTOS ============ -->
+  <!-- Depoimentos ilustrativos: substituir por avaliações reais de clientes -->
+  <section class="section reviews" id="depoimentos">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Depoimentos</p>
+        <h2>Quem já tem um móvel do Paulo em casa.</h2>
+        <div class="rating"><span class="stars">★★★★★</span> <strong>5,0</strong> média das avaliações</div>
+      </div>
+      <div class="reviews__grid">
+        <blockquote class="review">
+          <div class="stars">★★★★★</div>
+          <p>“Fiz a cozinha inteira com o Paulo e ficou exatamente como eu imaginava. Ele deu ideias que aproveitaram cada cantinho. O armário iluminado é o xodó da casa!”</p>
+          <footer><span class="avatar">MF</span><div><strong>Mariana F.</strong><small>Cozinha planejada · Buritis</small></div></footer>
+        </blockquote>
+        <blockquote class="review">
+          <div class="stars">★★★★★</div>
+          <p>“Pontual, caprichoso e muito honesto no orçamento. O guarda-roupa com porta de espelho ficou perfeito, as portas correm macias.”</p>
+          <footer><span class="avatar">RC</span><div><strong>Rodrigo C.</strong><small>Guarda-roupa · Pampulha</small></div></footer>
+        </blockquote>
+        <blockquote class="review">
+          <div class="stars">★★★★★</div>
+          <p>“Recebi indicação de uma vizinha e não me arrependo. Fez os dois banheiros e a lavanderia, tudo com acabamento impecável e no prazo combinado.”</p>
+          <footer><span class="avatar">AL</span><div><strong>Ana Luiza P.</strong><small>Banheiros · Savassi</small></div></footer>
+        </blockquote>
+        <blockquote class="review">
+          <div class="stars">★★★★★</div>
+          <p>“O que mais gostei foi a atenção. Ele veio medir, explicou cada opção de material e deixou a gente escolher sem pressão. Recomendo de olhos fechados.”</p>
+          <footer><span class="avatar">JS</span><div><strong>João S.</strong><small>Apartamento completo · Belvedere</small></div></footer>
+        </blockquote>
+        <blockquote class="review">
+          <div class="stars">★★★★★</div>
+          <p>“Montagem super limpa, não deixou sujeira nenhuma. A cozinha ficou linda e muito funcional. Já estou planejando o quarto com ele.”</p>
+          <footer><span class="avatar">CR</span><div><strong>Camila R.</strong><small>Cozinha · Santa Efigênia</small></div></footer>
+        </blockquote>
+        <blockquote class="review">
+          <div class="stars">★★★★★</div>
+          <p>“Preço justo e qualidade de loja grande. Os móveis estão firmes até hoje, anos depois. Profissional sério.”</p>
+          <footer><span class="avatar">PH</span><div><strong>Paulo H.</strong><small>Closet · Nova Lima</small></div></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section faq">
+    <div class="container faq__grid">
+      <div class="section__head">
+        <p class="eyebrow">Dúvidas frequentes</p>
+        <h2>Perguntas que sempre me fazem.</h2>
+      </div>
+      <div class="faq__list">
+        <details open>
+          <summary>A visita para medição é cobrada?</summary>
+          <p>Não. A visita técnica em Belo Horizonte e região é sem compromisso. Tiro as medidas e depois envio o orçamento.</p>
+        </details>
+        <details>
+          <summary>Quanto tempo leva para ficar pronto?</summary>
+          <p>Depende do tamanho do projeto. Em média, de 20 a 35 dias úteis após a aprovação do orçamento.</p>
+        </details>
+        <details>
+          <summary>Posso escolher cores e materiais?</summary>
+          <p>Sim. Trabalho com várias cores e padrões de MDF. Dá até para fazer o interno branco e o externo na cor escolhida, para equilibrar o valor.</p>
+        </details>
+        <details>
+          <summary>Vocês atendem quais regiões?</summary>
+          <p>Belo Horizonte e região metropolitana. Para outras cidades, me chama que a gente conversa.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA FINAL ============ -->
+  <section class="cta" id="contato">
+    <div class="container cta__inner">
+      <div>
+        <h2>Vamos planejar o seu ambiente?</h2>
+        <p>Me chama no WhatsApp, manda uma foto do espaço e a gente marca a visita.</p>
+      </div>
+      <div class="cta__actions">
+        <a class="btn btn--wa btn--big" data-wa href="#">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+          (31) 98546-7066
+        </a>
+        <small>Seg. a sáb. · Atendimento em BH e região</small>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Paulo Lourenço Marcenaria · Belo Horizonte, MG</span>
+      <a href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante -->
+  <a class="wa-float" data-wa href="#" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24"><use href="#i-wa"/></svg>
+  </a>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Fechar">×</button>
+    <button class="lightbox__nav lightbox__prev" aria-label="Anterior">‹</button>
+    <img alt="" />
+    <button class="lightbox__nav lightbox__next" aria-label="Próxima">›</button>
+  </div>
+
+  <!-- Ícone WhatsApp -->
+  <svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.5h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.02c0-5.2 4.23-9.43 9.43-9.43 2.52 0 4.89.98 6.67 2.77a9.37 9.37 0 0 1 2.76 6.67c0 5.2-4.23 9.43-9.44 9.43m8.03-17.46A11.3 11.3 0 0 0 12.05.72C5.79.72.7 5.81.7 12.07c0 2 .52 3.95 1.52 5.67L.6 23.62l6.02-1.58a11.3 11.3 0 0 0 5.42 1.38h.01c6.26 0 11.35-5.09 11.35-11.35 0-3.03-1.18-5.88-3.32-8.03"/></symbol>
+  </svg>
+
+  <script src="script.js"></script>
+</body>
+</html>
